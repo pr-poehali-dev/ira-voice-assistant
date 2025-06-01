@@ -3,9 +3,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const DevelopmentStatus = () => {
   const milestones = [
-    { phase: "Архитектура ИИ", progress: 100, status: "completed" },
-    { phase: "Обучение модели", progress: 85, status: "active" },
-    { phase: "Android интеграция", progress: 60, status: "active" },
+    { phase: "Архитектура ИИ", progress: 20, status: "active" },
+    { phase: "Обучение модели", progress: 0, status: "upcoming" },
+    { phase: "Android интеграция", progress: 20, status: "active" },
     { phase: "Бета-тестирование", progress: 0, status: "upcoming" },
     { phase: "Публичный релиз", progress: 0, status: "upcoming" },
   ];
