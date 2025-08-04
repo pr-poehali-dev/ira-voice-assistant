@@ -3,11 +3,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const DevelopmentStatus = () => {
   const milestones = [
-    { phase: "Архитектура ИИ", progress: 90, status: "completed" },
-    { phase: "Обучение модели", progress: 90, status: "active" },
-    { phase: "Android интеграция", progress: 90, status: "completed" },
-    { phase: "Бета-тестирование", progress: 90, status: "completed" },
-    { phase: "Публичный релиз", progress: 90, status: "completed" },
+    { phase: "Архитектура ИИ", progress: 100, status: "completed" },
+    { phase: "Обучение модели", progress: 75, status: "active" },
+    { phase: "Android интеграция", progress: 100, status: "completed" },
+    { phase: "Бета-тестирование", progress: 0, status: "upcoming" },
+    { phase: "Публичный релиз", progress: 0, status: "upcoming" },
   ];
 
   const getStatusBadge = (status: string) => {
