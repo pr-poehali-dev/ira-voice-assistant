@@ -3,11 +3,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const DevelopmentStatus = () => {
   const milestones = [
-    { phase: "Архитектура ИИ", progress: 20, status: "active" },
-    { phase: "Обучение модели", progress: 0, status: "upcoming" },
-    { phase: "Android интеграция", progress: 20, status: "active" },
-    { phase: "Бета-тестирование", progress: 0, status: "upcoming" },
-    { phase: "Публичный релиз", progress: 0, status: "upcoming" },
+    { phase: "Архитектура ИИ", progress: 90, status: "completed" },
+    { phase: "Обучение модели", progress: 90, status: "active" },
+    { phase: "Android интеграция", progress: 90, status: "completed" },
+    { phase: "Бета-тестирование", progress: 90, status: "completed" },
+    { phase: "Публичный релиз", progress: 90, status: "completed" },
   ];
 
   const getStatusBadge = (status: string) => {
@@ -70,8 +70,7 @@ const DevelopmentStatus = () => {
                 🎯 Текущий фокус
               </h4>
               <p className="text-gray-700">
-                Сейчас команда работает над улучшением понимания русской речи и
-                интеграцией с Android API
+                Обучаем модель на финальном этапе для максимального качества распознавания речи
               </p>
             </div>
           </CardContent>
