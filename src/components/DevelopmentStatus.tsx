@@ -6,8 +6,8 @@ const DevelopmentStatus = () => {
     { phase: "Архитектура ИИ", progress: 100, status: "completed" },
     { phase: "Обучение модели", progress: 90, status: "active" },
     { phase: "Android интеграция", progress: 100, status: "completed" },
-    { phase: "Бета-тестирование", progress: 100, status: "completed" },
-    { phase: "Публичный релиз", progress: 100, status: "completed" },
+    { phase: "Бета-тестирование", progress: 0, status: "upcoming" },
+    { phase: "Публичный релиз", progress: 0, status: "upcoming" },
   ];
 
   const getStatusBadge = (status: string) => {
